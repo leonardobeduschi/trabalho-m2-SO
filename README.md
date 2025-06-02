@@ -90,7 +90,7 @@ data/
   addresses_16b.txt       # Endereços de exemplo 16-bit
   addresses_32b.txt       # Endereços de exemplo 32-bit
   data_memory.txt         # Memória física simulada
-  backing_store.txt       # Armazenamento secundário
+  data.py
 
 src/
   address_parser.py       # Interpretador de endereços
@@ -98,9 +98,6 @@ src/
   page_table.py           # Tabela de páginas
   tlb.py                  # TLB com política LRU
   main.py                 # Interface de linha de comando
-
-tests/
-  test_*.py               # Testes unitários
 ```
 
 ---
